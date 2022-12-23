@@ -1,0 +1,8 @@
+{
+    "mirai": {
+        "qq": <机器人QQ号>,
+        "api_key": "<Mirai HTTP VerifyKey>",
+        "http_url": "http://localhost:8080",
+        "ws_url": "http://localhost:8080"
+    }
+}

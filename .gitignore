@@ -1,0 +1,5 @@
+config.json
+.idea/
+tests/
+data/
+poetry.lock

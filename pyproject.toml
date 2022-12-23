@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "group-element-analyzer"
+version = "0.1.0"
+description = "A Mirai Bot Plugin that Counts Word Frequency in Group Chats"
+authors = ["Doby2333 <github@doby2333.com>"]
+readme = "README.md"
+packages = [{include = "group_element_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+graia-ariadne = "^0.10.0"
+jieba = "^0.42.1"
+loguru = "^0.6.0"
+config = "^0.5.1"
+zhon = "^1.1.5"
+matplotlib = "^3.6.2"
+paddlepaddle = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
