@@ -7,6 +7,9 @@
  - [mirai-http-api](https://github.com/project-mirai/mirai-api-http)
  - [Jieba](https://github.com/fxsjy/jieba)
 
+使用
+ - [SQLite](https://www.sqlite.org/index.html)
+
 支持：  
 * [x] 分群统计词频
 
