@@ -1,4 +1,4 @@
-# Mirai Group Element Analyzer 【群成分统计器】
+# Mirai Word Frequency Counter 【群成分统计器】
 
 一款统计群友词频并生成统计图的 Mirai QQ 机器人插件
 
@@ -12,6 +12,9 @@
 
 支持：  
 * [x] 分群统计词频
+* [ ] 按日期筛选群成分
+* [ ] 按词长度筛选群成分
+* [ ] 使用paddlepaddle深度学习模型来进行分词，达到更高的准确性
 
 ## 介绍
 此插件监视群友的每一条消息，在过滤表情、标点等富文本后，使用[Jieba](https://github.com/fxsjy/jieba)库对每一条纯文本进行分词后统计至SQLite数据库（数据保存至`./data`路径下）。
@@ -29,8 +32,8 @@
 
 2. 下载本项目并使用`poetry`安装依赖:
 ```bash
-git clone https://github.com/lyzhang0113/mirai-group-element-analyzer.git
-cd mirai-group-element-analyzer
+git clone https://github.com/lyzhang0113/mirai_word_frequency_counter.git
+cd mirai_word_frequency_counter
 poetry install
 ```
 
@@ -39,7 +42,7 @@ poetry install
 
 4. 启动 bot.
 ```bash
-poetry run python .\group_element_analyzer\bot.py
+poetry run python .\mirai_word_frequency_counter\bot.py
 ```
 
 

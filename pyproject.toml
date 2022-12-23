@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "group-element-analyzer"
+name = "mirai-word-frequency-counter"
 version = "0.1.0"
 description = "A Mirai Bot Plugin that Counts Word Frequency in Group Chats"
 authors = ["Doby2333 <github@doby2333.com>"]
 readme = "README.md"
-packages = [{include = "group_element_analyzer"}]
+packages = [{include = "mirai_word_frequency_counter"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
